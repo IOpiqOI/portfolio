@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #20202D;
@@ -12,8 +16,9 @@ body {
   color: #fff;
 }
 
-img {
-  max-width: 100%;
+.hero-avatar img {
+  height: 100%;
+  width: auto;
 }
 
 .container {
@@ -88,9 +93,10 @@ img {
   box-shadow: 0px 4px 0px #B68500;
   border: none;
   border-radius: 5px 5px 10px 10px;
-  padding: 24px 42px;
+  padding: 24px 50px;
   text-transform: uppercase;
-  font-weight: bold;
+  text-decoration: none;
+  color: #000;
   min-width: 100%;
 
 }
@@ -102,12 +108,13 @@ img {
 .hero-avatar {
   width: 389px;
   height: 389px;
-  background-color: #fff;
   border-radius: 50%;
-  background-image: url(../img/avatar.jpg);
-  background-repeat: no-repeat;
-  background-position: center top -67px;
   border: 11px solid #fff;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 
 }
 
@@ -311,7 +318,7 @@ img {
 .contacts-links {
   text-decoration: none;
   color: inherit;
-  margin-right: 37px;
+  /* margin-right: 37px; */
 }
 
 .contacts-links:hover {
@@ -474,6 +481,7 @@ img {
   .contacts-mail {
     flex-basis: 100%;
     margin-bottom: 30px;
+    text-align: center;
   }
 
   .contacts-title {
