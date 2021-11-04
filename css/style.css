@@ -28,7 +28,7 @@ body {
 }
 
 .section {
-  padding: 64px 0 92px;
+  padding: 50px 0 0;
 }
 
 .section-title {
@@ -372,7 +372,6 @@ body {
   }
 
   .projects-slide {
-    align-items: center;
     flex-direction: column;
   }
 
@@ -427,10 +426,6 @@ body {
     line-height: 28px;
   }
 
-  .section {
-    padding-top: 63px;
-  }
-
   .section-title {
     font-size: 19px;
     line-height: 22px;
@@ -460,7 +455,7 @@ body {
   .project-time,
   .project-cost,
   .project-feedback {
-    flex-basis: 100%;
+    flex-basis: 84%;
     margin-bottom: 30px;
   }
 
