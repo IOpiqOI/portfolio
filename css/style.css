@@ -170,6 +170,10 @@ body {
   flex-basis: 60%;
   cursor: grab;
 }
+.project-text:active {
+  cursor: grabbing;
+}
+
 
 .project-title {
   flex-basis: 100%;
