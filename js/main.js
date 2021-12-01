@@ -7,6 +7,8 @@ var mySwiper = new Swiper('.swiper-container', {
     clickable: true
   },
 });
-
+function myFunction() {
 document.querySelector('.project-text').onmousedown = e => e.target.style.cursor = 'grabbing';
 document.querySelector('.project-text').onmouseup = e => e.target.style.cursor = 'grab';
+};
+
